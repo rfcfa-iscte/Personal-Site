@@ -1,16 +1,18 @@
 import React from 'react';
-import Header from './Header';
 import AboutMe from './Aboutme';
 import ContactForm from './ContactForm.JSX'
+import Home from './Home';
 
 
 // Homepage Component
 const HomePage = () => {
   return (
     <div>
-      <Header />
+      {/* <Header /> */}
       <main>
-        <AboutMe />
+        <Home />
+        <AboutMe/>
+
         <ContactForm />
       </main>
     </div>

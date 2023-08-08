@@ -2,9 +2,9 @@ import React from "react";
 import logoImage from "../assets/foto2rui.png"; // Replace 'your-logo-image.png' with the actual path to your logo image
 
 // About Me Component
-const AboutMe = () => {
+const Home = () => {
   return (
-    <section id="about">
+    <section id="home">
       <div className="about-container">
         <img src={logoImage} alt="Logo" className="aboutImage" />
 
@@ -20,4 +20,4 @@ const AboutMe = () => {
   );
 };
 
-export default AboutMe;
+export default Home;

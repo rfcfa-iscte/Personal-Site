@@ -2,6 +2,7 @@ import React from 'react';
 
 // Contact Form Component
 const ContactForm = () => {
+  
   return (
     <section id="contact">
       <h2>Contact Me</h2>
