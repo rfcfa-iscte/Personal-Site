@@ -1,6 +1,7 @@
 #root {
   margin: 0 0;
-  text-align: center;
+  text-align: left;
+  background-color: #080b24;
 }
 body {
   display: block;
@@ -22,12 +23,12 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #f0f0f0;
+  background-color: #333333;
 }
 
 .logo {
-  width: 100px; /* Adjust the size of the logo image as needed */
-  height: 100px; /* Adjust the size of the logo image as needed */
+  width: 50px; /* Adjust the size of the logo image as needed */
+  height: 50px; /* Adjust the size of the logo image as needed */
 }
 
 .nav-links {
@@ -45,28 +46,28 @@ body {
 
 .nav-links a {
   text-decoration: none;
-  color: #333;
+  color: #f1f0f0;
   font-weight: bold;
   padding: 5px;
   border: 1px solid transparent;
   border-radius: 5px;
+  font-size: 25px;
 }
 
 .nav-links a:hover {
-  background-color: #ddd;
+  background-color: #242323;
 }
 .about-container {
   display: flex;
 }
 .about-introduction {
   padding-top: 350px;
-  margin-left: -50px;
-  color: rgb(0, 0, 0);
-  font-size: 45px;
+  color: #f0f0f0;
+  font-size: 60px;
 }
 .about-based {
-  color: rgb(0, 0, 0);
-  font-size: 45px;
+  color: #f0f0f0;
+  font-size: 60px;
 }
 .aboutImage {
   width: 55vw;

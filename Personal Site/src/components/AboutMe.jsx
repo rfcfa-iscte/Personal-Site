@@ -6,8 +6,6 @@ const AboutMe = () => {
   return (
     <section id="about">
       <div className="about-container">
-        <img src={logoImage} alt="Logo" className="aboutImage" />
-
         <div className="about-text">
           <div className="about-introduction">
             Hello! I'm Rui Ferreira, a business management and computer science
@@ -15,6 +13,7 @@ const AboutMe = () => {
           </div>
           <div className="about-based">based in Portugal.</div>
         </div>
+        <img src={logoImage} alt="Logo" className="aboutImage" />
       </div>
     </section>
   );
