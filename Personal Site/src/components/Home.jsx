@@ -5,16 +5,15 @@ import logoImage from "../assets/foto2rui.png"; // Replace 'your-logo-image.png'
 const Home = () => {
   return (
     <section id="home">
-      <div className="about-container">
-        <img src={logoImage} alt="Logo" className="aboutImage" />
-
-        <div className="about-text">
-          <div className="about-introduction">
-            Hello! I'm Rui Ferreira, a business management and computer science
-            graduate
-          </div>
-          <div className="about-based">based in Portugal.</div>
+      <div className="home-container">
+        <div className="home-text-container">
+          <p className="home-text1">Hello, I'm</p>
+          <p className="home-text2">Rui</p>
+          <p className="home-text2">Ferreira</p>
+          <p className="home-text3">Full-Stack Developer</p>
+          <button className="home-button1">Contact Me</button>
         </div>
+        {/* <img src={logoImage} alt="Logo" className="aboutImage" /> */}
       </div>
     </section>
   );

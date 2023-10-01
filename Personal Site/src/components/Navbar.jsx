@@ -1,12 +1,14 @@
 import React from "react";
 import logoImage from "../assets/foto2rui.png"; // Replace 'your-logo-image.png' with the actual path to your logo image
 
+
 const Navbar = () => {
   const scrollToSection = (event, id) => {
     event.preventDefault();
     const target = document.querySelector(id);
     target.scrollIntoView({ behavior: 'smooth' });
   };
+  
   return (
     <nav className="navbar">
       <div className="logo-container">
